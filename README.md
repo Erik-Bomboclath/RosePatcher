@@ -1,6 +1,5 @@
 # Rosé Patcher (Name subject to change)
-This is Rosé Patcher! The Aroma plugin that revives Nintendo TVii icon from the Wii U Menu and Home Menu, as well as the applet from inside!
-
+This is Rosé Patcher! but plugin is builted the second the original fork is updated
 
 ## Credits
 - [Cooper](https://github.com/coopeeo) ([@coopeeo](https://github.com/coopeeo)): Lead Plugin Developer - TVii Config, Acquire Independent Service Token (<-- hi cooper here to say this was absolute hell), and plugin settings.
