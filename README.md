@@ -1,7 +1,7 @@
-# Rosé Patcher (Name subject to change)
+# Rosé Patcher Fork
 This is Rosé Patcher! but plugin is builted the second the original fork is updated. WARNING: this fork contains released that are unofficially builded, it may be wrong builded, and also every release is experimental, so thats why its tagged as pre-release.
 
-## Credits
+## Credits (untouched)
 - [Cooper](https://github.com/coopeeo) ([@coopeeo](https://github.com/coopeeo)): Lead Plugin Developer - TVii Config, Acquire Independent Service Token (<-- hi cooper here to say this was absolute hell), and plugin settings.
 - [Swirlz](https://github.com/itzswirlz) ([@ItzSwirlz](https://github.com/itzswirls)): Plugin Developer - Helped a lot with issues (and cooper's dumb brain).
 - All the other people in the Aroma Discord (because of cooper not understanding anything and being an idiot).
