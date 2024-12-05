@@ -1,5 +1,5 @@
 # Rosé Patcher (Name subject to change)
-This is Rosé Patcher! but plugin is builted the second the original fork is updated
+This is Rosé Patcher! but plugin is builted the second the original fork is updated. WARNING: this fork contains released that are unofficially builded, it may be wrong builded, and also every release is experimental, so thats why its tagged as pre-release.
 
 ## Credits
 - [Cooper](https://github.com/coopeeo) ([@coopeeo](https://github.com/coopeeo)): Lead Plugin Developer - TVii Config, Acquire Independent Service Token (<-- hi cooper here to say this was absolute hell), and plugin settings.
