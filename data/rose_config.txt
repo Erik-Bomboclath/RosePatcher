@@ -1,5 +1,5 @@
 #ur0 is default
-url0:https://tvii.l1.us.projectrose.cafe
+url0:file:///vol/content/index.html
 
 # on/off debug print of client
 CallbackDebugPrint:0
@@ -10,10 +10,10 @@ AddTimeStampToDebugPrint:0
 # 0/1 download whitelist with/without Verifying service-token
 # 0 download the white-list without service-token on http-request-header
 # 1 download the white-list with service-token on http-request-header
-WhiteList_VerifyServiceToken:0
+WhiteList_VerifyServiceToken:1
 
 # 0/1 use whitelist cache on NAND
-WhiteList_UseCache:0
+WhiteList_UseCache:1
 
 # on/off javascript error print on console
 # 0:off, 1:on
@@ -66,60 +66,73 @@ EnableEventLock:1
 # 2:Network (vino uses white-list on network, path is written at 'WhiteList_Path'. in this mode, white-list is downloaded with a paticular ssl certification for client and server.)
 # 3:Release (vino uses the final environment by each region.)
 WhiteList_Use:2
-WhiteList_Path:https://web-us.l1.us.vino.wup.app.projectrose.cafe/whitelist.txt?country=us
+WhiteList_Path:https://web-jp.l1.jp.vino.wup.app.projectrose.cafe/whitelist.txt?country=jp
 
 # Allow 'file:' and 'http:' scheme. Finally, it is set to 'Not Allow'
 # 0:Not Allow
 # 1:Allow
-AllowDebugScheme:1
+AllowDebugScheme:0
 
 # LoadingIcon
 # 0:Not Draw Icon at Pre-loading
 # 1:Draw
-PreLoadIconDraw:0
+PreLoadIconDraw:1
+
+# Navigation to Minus Location
+# 0:Not Allow
+# 1:Allow
+EnableNaviMinusLocation:1
+
+PreLoadIconLeft:797
+PreLoadIconTop:424
+PreLoadIconWidth:82
+PreLoadIconHeight:82
+PreLoadIconWaitingFrame:1
 
 # LayoutColor RGB (0-255)
 
-P_TouchEffectSBColorR:115
-P_TouchEffectSBColorG:238
-P_TouchEffectSBColorB:255
-P_TouchEffectSWColorR:0
-P_TouchEffectSWColorG:238
-P_TouchEffectSWColorB:255
 
-P_TouchEffectMBColorR:107
-P_TouchEffectMBColorG:114
-P_TouchEffectMBColorB:255
-P_TouchEffectMWColorR:0
-P_TouchEffectMWColorG:199
-P_TouchEffectMWColorB:255
+P_TouchEffectSBColorR:255
+P_TouchEffectSBColorG:30
+P_TouchEffectSBColorB:42
+P_TouchEffectSWColorR:255
+P_TouchEffectSWColorG:30
+P_TouchEffectSWColorB:42
 
-W_NodeFrameBColorR:72
-W_NodeFrameBColorG:197
-W_NodeFrameBColorB:255
-W_NodeFrameWColorR:128
-W_NodeFrameWColorG:219
-W_NodeFrameWColorB:255
-W_NodeFrameVTColorR:217
-W_NodeFrameVTColorG:255
+P_TouchEffectMBColorR:255
+P_TouchEffectMBColorG:31
+P_TouchEffectMBColorB:38
+P_TouchEffectMWColorR:255
+P_TouchEffectMWColorG:48
+P_TouchEffectMWColorB:58
+
+W_NodeFrameBColorR:255
+W_NodeFrameBColorG:41
+W_NodeFrameBColorB:76
+W_NodeFrameWColorR:255
+W_NodeFrameWColorG:122
+W_NodeFrameWColorB:128
+W_NodeFrameVTColorR:255
+W_NodeFrameVTColorG:247
 W_NodeFrameVTColorB:249
-W_NodeFrameVBColorR:153
-W_NodeFrameVBColorG:249
-W_NodeFrameVBColorB:255
+W_NodeFrameVBColorR:255
+W_NodeFrameVBColorG:224
+W_NodeFrameVBColorB:236
 
-W_BaseBColorR:72
-W_BaseBColorG:197
-W_BaseBColorB:255
-W_BaseWColorR:128
-W_BaseWColorG:219
-W_BaseWColorB:255
-W_BaseVTColorR:217
-W_BaseVTColorG:255
+W_BaseBColorR:255
+W_BaseBColorG:41
+W_BaseBColorB:76
+W_BaseWColorR:255
+W_BaseWColorG:122
+W_BaseWColorB:128
+W_BaseVTColorR:255
+W_BaseVTColorG:247
 W_BaseVTColorB:249
-W_BaseVBColorR:153
-W_BaseVBColorG:249
-W_BaseVBColorB:255
+W_BaseVBColorR:255
+W_BaseVBColorG:224
+W_BaseVBColorB:236
 
-W_DecideWColorR:128
-W_DecideWColorG:220
-W_DecideWColorB:255
+W_DecideWColorR:255
+W_DecideWColorG:184
+W_DecideWColorB:205
+
