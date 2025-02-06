@@ -9,7 +9,7 @@
 #include "../utils/patch.hpp"
 #include "../config.hpp"
 
-#include "rootx1_der.h" // Included at runtime
+#include "rootr1_der.h" // Included at runtime
 
 namespace patches::ssl {
     void addCertificateToWebKit() {
@@ -32,15 +32,15 @@ namespace patches::ssl {
             return;
         }
 
-        void* ret1 = WKC_SSLRegisterRootCAByDER((const char *)(rootx1_der), rootx1_der_size);
-        // DEBUG("Added ISRG Root X1 certificate to WebKit. code: %d", ret1);
+        void* ret1 = WKC_SSLRegisterRootCAByDER((const char *)(rootr1_der), rootr1_der_size);
+        // DEBUG("Added ISRG Root r1 certificate to WebKit. code: %d", ret1);
     }
 }; // namespace ssl
 
 DECL_FUNCTION(NSSLError, NSSLAddServerPKI, NSSLContextHandle context, NSSLServerCertId pki) {
     if (config::connectToRose) {
-        NSSLError ret = NSSLAddServerPKIExternal(context, rootx1_der, rootx1_der_size, 0);
-        // DEBUG("Added ISRG Root X1 certificate to NSSL context. code: %d", ret);
+        NSSLError ret = NSSLAddServerPKIExternal(context, rootr1_der, rootr1_der_size, 0);
+        // DEBUG("Added ISRG Root r1 certificate to NSSL context. code: %d", ret);
     }
 
     return real_NSSLAddServerPKI(context, pki);
